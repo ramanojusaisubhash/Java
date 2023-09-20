@@ -19,7 +19,7 @@ class UNIONBANK extends Bank{
         return 10;
     }
 }
-public class MethodOverloadingDemo{
+public class MethodOverridingDemo{
     public static void main(String args[]){
        SBI s = new SBI();
        HDFC h =new HDFC();
