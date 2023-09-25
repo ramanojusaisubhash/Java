@@ -1,5 +1,5 @@
 import java.io.*;
-public class OuterClass{//StaticNestedClassDemo
+class OuterClass{//StaticNestedClassDemo
 	static int outer_x=10;
 	int outer_y = 20;
 	private static int outer_z = 30;
@@ -11,6 +11,8 @@ public class OuterClass{//StaticNestedClassDemo
 			System.out.println("outer_y value is "+oc.outer_y);
 		}
 	}
+}
+public class StaticNestedClassDemo{
 	public static void main(String args[]){
 		OuterClass.StaticNestedClass snc = new OuterClass.StaticNestedClass();
 		snc.display();
