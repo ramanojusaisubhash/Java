@@ -1,5 +1,5 @@
 import java.io.*;
-class OuterClass{//StaticNestedClassDemo
+public class OuterClass{//StaticNestedClassDemo
 	static int outer_x=10;
 	int outer_y = 20;
 	private static int outer_z = 30;
